@@ -1,0 +1,13 @@
+.sign {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+    line-height: 116%;
+    align-items: center;
+    color: #1C1C21;
+    opacity: 0.5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+}

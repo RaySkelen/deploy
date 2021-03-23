@@ -1,0 +1,53 @@
+.container {
+    display: inline-block;
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.answer {
+    display: inline-block;
+    width: 50%;
+}
+
+.answer:hover svg path{
+    stroke: #FF8B37;
+}
+
+.answer:active svg path{
+    stroke: #FF8B37;
+}
+
+.answer:active svg path{
+    fill: #FFF3EB;
+}
+
+.answerText {
+    font-size: 70%;
+    line-height: 116%;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 812px) {
+    .container {
+        display: inline-block;
+        height: 10%;
+        width: 100%;
+        margin-left: 0;
+    }
+    .answer {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .answerText {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 116%;
+        text-transform: capitalize;
+    }
+    .letter {
+        font-weight: 600;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,14 @@
+.container {
+    margin: 10% 0 20% 5%;
+    width: 43%;
+}
+
+@media screen and (max-width: 812px) {
+    .container {
+        margin-top: 40%;
+        width: 100%;
+    }
+    .container svg {
+        width: 90%;
+    }
+}

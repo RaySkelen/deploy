@@ -1,0 +1,63 @@
+.flexContainer {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.questionContainer {
+    background-color: #F5F5F7;
+    width: 80%;
+}
+
+.menu {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.board {
+    width: 20%;
+    height: 100%;
+    display: block;
+}
+
+.close {
+    display: none;
+}
+
+@media screen and (max-width: 812px) {
+    .flexContainer {
+        display: flex;
+        height: 100%;
+        justify-content: space-between;
+    }
+    .questionContainer {
+        background-color: #F5F5F7;
+        width: 100%;
+    }
+    .menu {
+        display: block;
+        width: 5vw;
+        float: right;
+        margin: 1vw 2vw 0 0;
+    }
+    .scoreContainer {
+        height: 90%;
+        width: 100%;
+        margin-top: 10%;
+    }
+    .scoreContainer div {
+        margin-top: 1%;
+    }
+    .scoreContainer div div {
+        height: 6%;
+    }
+    .close {
+        display: block;
+        width: 4vw;
+        position: absolute;
+        right: 5px;
+    }
+}

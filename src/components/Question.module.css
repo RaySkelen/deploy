@@ -1,0 +1,24 @@
+.question {
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 116%;
+}
+
+.container {
+    margin: 10% 0 20% 10%;
+    padding-right: 30%;
+}
+
+@media screen and (max-width: 812px) {
+    .question {
+        font-size: 22px;
+    }
+    .container {
+        margin: 30% 5% 25% 5%;
+        display: flex;
+        padding: 5% 0 0 0;
+        width: 90%;
+        justify-content: center;
+        text-align: center;
+    }
+}

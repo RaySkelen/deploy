@@ -1,0 +1,10 @@
+.itemText {
+    font-size: 110%;
+    line-height: 23, 2px;
+}
+
+.board {
+    height: 100%;
+    margin: 30% 0 10% 0;
+    width: 100%;
+}
